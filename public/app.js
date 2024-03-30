@@ -5,8 +5,8 @@ fetch('http://localhost:8080/hoteis')
         data.forEach(hotel => {
             const hotelDiv = document.createElement('div');
             hotelDiv.innerHTML = `
-                <img src="${hotel.foto}" alt="${hotel.nome}" style="width:500px">
                 <div class="container">
+                    <img src="${hotel.foto}" alt="${hotel.nome}" style="width:500px">
                     <h2>${hotel.nome}</h2>
                     <p><strong>Descrição:</strong> ${hotel.descricao}</p>
                     <p><strong>Local:</strong> ${hotel.local}</p>
