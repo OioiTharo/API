@@ -1,4 +1,4 @@
-fetch('http://localhost:8080/hotias')
+fetch('http://localhost:8080/hoteis')
     .then(response => response.json())
     .then(data => {
         const hoteisList = document.getElementById('hoteis-list');
