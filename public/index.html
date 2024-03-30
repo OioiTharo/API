@@ -5,20 +5,41 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>API de Hoteis</title>
         <style type="text/css">
+            body{
+                background-color: black;
+            }
+            .tudo{
+                background-color: white;
+                margin: 50px;
+                text-align: center;
+                border-radius: 16px;
+            }
+            .ok{
+                height: 800px;
+                overflow-y: scroll;
+                display: flex;
+            }
             .container {
                 padding: 2px 16px;
                 width: 500px;
                 border: 1px solid;
-                margin-top: 5px;
+                margin-right: 5px;
+                display: inline-block;
+            }
+            h1{
+                padding-top: 10px;
             }
         </style>
     </head> 
     <body>
-        <h1>Lista de Hoteis</h1>
-        <div id="hoteis-list">
+        <div class="tudo">
+            <h1>Lista de Hoteis</h1>
+            <div id="hoteis-list" class="ok">
 
             
+            </div>  
         </div>
+        
 
         <script src="app.js"></script>
     </body>
